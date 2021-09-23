@@ -1,0 +1,26 @@
+/*a__title14 - number 14 is mean font size*/
+
+.a__title14 {
+  font-family: Gilroy, semibold, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #001524;
+}
+
+.a__title16 {
+  position: absolute;
+  left: 41.11%;
+  right: 40.83%;
+  top: 8.12%;
+  bottom: 88.12%;
+  font-family: Gilroy, bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #001524;
+}
