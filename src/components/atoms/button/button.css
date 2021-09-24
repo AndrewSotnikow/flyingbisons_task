@@ -1,0 +1,18 @@
+.a-button {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  font-family: Gilroy, bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #001524;
+}
+.a-button--active {
+  border-bottom: 2px solid;
+  color: #466BC9;
+}
+
+/*# sourceMappingURL=button.css.map */

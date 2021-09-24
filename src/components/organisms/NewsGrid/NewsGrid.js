@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./newsGrid.css";
+import "./newsGrid.scss";
 import Article from "../../molecules/Acticle/Article";
 
 const NewsGrid = ({ ...props }) => (

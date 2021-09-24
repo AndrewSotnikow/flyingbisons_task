@@ -9,7 +9,7 @@ const Article = ({ ...props }) => (
       <TitleH2 title={props.post.title} styles="a-article__title" />
       <TitleH2
         title={props.post.title}
-        styles="a-article__title  a-article__title--lightgrey a-article__title--subTitle"
+        styles="a-article__title  a-article__title--lightgray a-article__title--subTitle"
       />
     </div>
     <div className="m-article__arrowContainer">

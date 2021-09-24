@@ -1,5 +1,5 @@
 import React from "react";
-import NewsListPage from "./components/pages/NewsListPage";
+import NewsListPage from "./components/pages/NewsListPage/NewsListPage";
 
 function App() {
   return (

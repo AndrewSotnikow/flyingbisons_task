@@ -4,11 +4,11 @@
   font-family: variables.$semiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: variables.$header-fontSize;
   line-height: variables.$article-header-lineHeight;
   letter-spacing: 0.2px;
 
-  &--lightgrey {
+  &--lightgray {
     color: variables.$subheader-color;
   }
 
@@ -26,7 +26,7 @@
   font-family: variables.$bold;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: variables.$header-fontSize;
   line-height: variables.$page-header-lineHeight;
   text-align: center;
 
