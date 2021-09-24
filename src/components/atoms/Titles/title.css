@@ -1,26 +1,32 @@
-/*a__title14 - number 14 is mean font size*/
-
-.a__title14 {
+.a-article__title {
   font-family: Gilroy, semibold, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.2px;
+}
+.a-article__title--lightgrey {
+  color: #A0ABB3;
+}
+.a-article__title--darkBlue {
   color: #001524;
 }
+.a-article__title--subTitle {
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
 
-.a__title16 {
-  position: absolute;
-  left: 41.11%;
-  right: 40.83%;
-  top: 8.12%;
-  bottom: 88.12%;
+.a-header__title {
   font-family: Gilroy, bold, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   text-align: center;
+}
+.a-header__title--darkBlue {
   color: #001524;
 }
+
+/*# sourceMappingURL=title.css.map */

@@ -1,0 +1,36 @@
+@use "../../_settings/variables";
+
+.a-article__title {
+  font-family: variables.$semiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: variables.$article-header-lineHeight;
+  letter-spacing: 0.2px;
+
+  &--lightgrey {
+    color: variables.$subheader-color;
+  }
+
+  &--darkBlue {
+    color: variables.$header-color;
+  }
+
+  &--subTitle {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+
+.a-header__title {
+  font-family: variables.$bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: variables.$page-header-lineHeight;
+  text-align: center;
+
+  &--darkBlue {
+    color: variables.$header-color;
+  }
+}
