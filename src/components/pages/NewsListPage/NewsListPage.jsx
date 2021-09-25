@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchData } from "../../../functions/fetchData";
-import NewsListTemplate from "../../templates/NewsListTemplate";
+import NewsListTemplate from "../../templates/NewsListTemplate/NewsListTemplate";
 
 const NewsListPage = () => {
   const [news, setNews] = useState([]);
@@ -16,9 +16,7 @@ const NewsListPage = () => {
       setLoading
     );
   }, []);
-
   console.log(error, loading);
-
   return (
     <>
       <NewsListTemplate

@@ -1,4 +1,4 @@
-@use "../../_settings/variables";
+@use "../../_settings/variables" as *;
 
 .m-article {
   display: flex;
@@ -9,8 +9,8 @@
   border-radius: 8px;
   margin-bottom: 0.8em;
   padding: 2.4em;
-  background-color: variables.$background-color;
-  box-shadow: variables.$boxShadow-color;
+  background-color: $bg-color;
+  box-shadow: $boxShadow-color;
 
   &__arrowContainer {
     display: flex;

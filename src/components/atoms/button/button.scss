@@ -1,16 +1,16 @@
-@use "../../_settings/variables";
+@use "../../_settings/variables" as *;
 
 .a-button {
-  width: 50%;
+  width: 100%;
   height: 100%;
-  background-color: variables.$background-color;
-  font-family: variables.$bold;
+  background-color: $bg-color;
+  font-family: $bold;
   font-style: normal;
   font-weight: bold;
-  font-size: variables.$header-fontSize;
-  line-height: variables.$page-header-lineHeight;
+  font-size: $header-fontSize;
+  line-height: $page-header-lineHeight;
   text-align: center;
-  color: variables.$header-color;
+  color: $header-color;
 
   &--active {
     border-bottom: 2px solid;
