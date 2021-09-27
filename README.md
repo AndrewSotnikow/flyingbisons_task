@@ -1,4 +1,4 @@
-# Harveo landingpage
+# Flying Bisons recruitment task
 
 This is a recruitment task, created with React.
 
