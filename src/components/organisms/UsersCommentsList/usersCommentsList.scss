@@ -1,0 +1,19 @@
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .o-usersCommentsList {
+    width: 100%;
+    height: 100%;
+    margin: 0 $value16;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: $value40;
+
+    & a {
+      text-decoration: none;
+      color: $page-header-color
+    }
+  }
+}

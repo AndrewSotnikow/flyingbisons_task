@@ -1,0 +1,49 @@
+@use "../../_settings/_variables" as *;
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .t-NewsListTemplate {
+
+    .m-header__title {
+      font-family: $bold;
+      font-style: normal;
+      font-weight: bold;
+      font-size: $newsPost-header-fontSize;
+      line-height: $page-header-lineHeight;
+      text-align: center;
+
+      &--darkBlue {
+        color: $page-header-color;
+      }
+    }
+
+    &--section {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: $value24 0 $value64 0;
+    }
+
+    &--newsGrid {
+      width: 100%;
+      height: 100%;
+      margin: 0 $value16;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      & a {
+        text-decoration: none;
+        color: $page-header-color;
+      }
+    }
+  }
+}

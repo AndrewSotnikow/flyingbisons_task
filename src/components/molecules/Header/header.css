@@ -1,0 +1,12 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .m-header {
+    width: 100%;
+    height: 8.8em;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

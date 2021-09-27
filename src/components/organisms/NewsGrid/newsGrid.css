@@ -1,0 +1,25 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .o-newsGrid {
+    width: 100%;
+    height: 100%;
+    margin: 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .o-newsGrid a {
+    text-decoration: none;
+    color: #001524;
+  }
+  .o-newsGrid__listItem {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+  .o-newsGrid__Link:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=newsGrid.css.map */

@@ -1,0 +1,34 @@
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-listItem {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: $value8;
+    padding: $value24;
+    background-color: $bg-color;
+    box-shadow: $boxShadow-color;
+
+    &__arrowContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10%;
+    }
+
+    &__titleContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 80%;
+    }
+  }
+
+  .m-listItem:last-child {
+    margin-bottom: 0;
+  }
+}

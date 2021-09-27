@@ -1,0 +1,46 @@
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .t-NewsDetailsTemplate {
+
+    &__header {
+      width: 100%;
+      height: auto;
+    }
+
+    &__NavLink {
+      display: block;
+      width: 50%;
+      height: 100%;
+    }
+
+    &__detailsSection {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: $value24 0 $value40 0;
+    }
+
+    &__commentSection {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: $value24;
+    }
+
+    &__error {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: $value24 0 $value64 0;
+    }
+  }
+}
+
+

@@ -1,0 +1,72 @@
+@use "../../_settings/_variables" as *;
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .a-title {
+    font-family: $semiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $newsPost-header-fontSize;
+    line-height: $article-header-lineHeight;
+    letter-spacing: $letterSpacing02;
+
+    &.--lightgray {
+      color: $subheader-color;
+    }
+
+    &.--darkBlue {
+      color: $page-header-color;
+    }
+  }
+
+
+  .m-listItem__title {
+    font-family: $semiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $newsPost-header-fontSize;
+    line-height: $article-header-lineHeight;
+    letter-spacing: $letterSpacing02;
+
+    &.--lightgray {
+      color: $subheader-color;
+    }
+
+    &.--darkBlue {
+      color: $page-header-color;
+    }
+  }
+
+  .m-newsDetails__title {
+    font-family: $medium;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $details-title-fontSize;
+    line-height: $details-title-lineHeight;
+    letter-spacing: $letterSpacing-04;
+    margin-bottom: 1.2em;
+
+    &--darkBlue {
+      color: $page-header-color;
+    }
+  }
+
+  .m-header__title {
+    font-family: $bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $page-header-fontSize;
+    line-height: $page-header-lineHeight;
+    text-align: center;
+
+    &.--darkBlue {
+      color: $page-header-color;
+    }
+  }
+
+  .p-NewsListPage {
+    &__error {
+
+    }
+  }
+}

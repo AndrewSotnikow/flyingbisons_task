@@ -1,0 +1,27 @@
+@use "../../_settings/_variables" as *;
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5.6em;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid $border-color;
+
+    &__verticalLine {
+      height: 43%;
+      border-left: 2px solid $border-color;
+    }
+
+    &__navLink {
+      display: block;
+      width: 50%;
+      height: 100%;
+    }
+  }
+}

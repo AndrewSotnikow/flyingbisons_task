@@ -1,0 +1,58 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .a-title {
+    font-family: Gilroy, semibold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02rem;
+  }
+  .a-title.--lightgray {
+    color: #A0ABB3;
+  }
+  .a-title.--darkBlue {
+    color: #001524;
+  }
+
+  .m-listItem__title {
+    font-family: Gilroy, semibold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02rem;
+  }
+  .m-listItem__title.--lightgray {
+    color: #A0ABB3;
+  }
+  .m-listItem__title.--darkBlue {
+    color: #001524;
+  }
+
+  .m-newsDetails__title {
+    font-family: Gilroy, medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.04rem;
+    margin-bottom: 1.2em;
+  }
+  .m-newsDetails__title--darkBlue {
+    color: #001524;
+  }
+
+  .m-header__title {
+    font-family: Gilroy, bold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .m-header__title.--darkBlue {
+    color: #001524;
+  }
+}
+
+/*# sourceMappingURL=title.css.map */
