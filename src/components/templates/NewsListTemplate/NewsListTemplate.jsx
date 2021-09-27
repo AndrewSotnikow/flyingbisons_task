@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "../../molecules/Header/Header";
 import NewsGrid from "../../organisms/NewsGrid/NewsGrid";
-import "./newsListTemplate.scss";
+import "./newsListTemplate.css";
 
 const NewsListTemplate = (props) => {
   const { news } = props;
@@ -10,13 +10,13 @@ const NewsListTemplate = (props) => {
   if (news) {
     return (
       <>
-        <header className="header">
-          <Header
-            title="News list"
-            styles="a-header__title a-header__title--darkBlue"
-          />
+        <header
+          className="t-NewsListTemplate--header"
+          aria-label="News list page header"
+        >
+          <Header title="News list" styles="m-header__title --darkBlue" />
         </header>
-        <section className="section">
+        <section className="t-NewsListTemplate--section" aria-label="News list">
           <NewsGrid news={news} />
         </section>
       </>

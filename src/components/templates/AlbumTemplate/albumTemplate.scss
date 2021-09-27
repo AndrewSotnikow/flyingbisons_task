@@ -1,14 +1,17 @@
-.header {
-  width: 100%;
-  height: auto;
-}
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
 
-.section {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2.4em 0 6.4em 0;
-  background-color: #fff;
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: $value24 0 $value64 0;
+  }
 }

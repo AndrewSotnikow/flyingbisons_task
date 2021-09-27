@@ -1,7 +1,11 @@
 @import "fonts/Gilroy/gilroy.css";
 @import "components/atoms/Titles/title.css";
-@import "./reset.css";
-@import "./components/molecules/Acticle/article.css";
+@import "reset/reset.css";
+@import "components/molecules/ListItem/listItem.css";
+
+html{
+    font-size: 62.5%;
+}
 
 body {
     margin: 0;
@@ -10,7 +14,6 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 62.5%;
     background-color: #F4F6F9;
 }
 

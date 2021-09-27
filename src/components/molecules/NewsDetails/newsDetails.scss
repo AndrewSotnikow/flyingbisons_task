@@ -1,0 +1,15 @@
+@use "../../_settings/_variables" as *;
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-newsDetails {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: $value8;
+    background-color: $bg-color;
+    box-shadow: $boxShadow-color;
+    padding: $value24;
+    margin: 0 $value16;
+  }
+}

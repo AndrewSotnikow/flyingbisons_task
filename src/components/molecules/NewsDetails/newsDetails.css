@@ -1,0 +1,14 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .m-newsDetails {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(240, 242, 245, 0.5);
+    padding: 2.4rem;
+    margin: 0 1.6rem;
+  }
+}
+
+/*# sourceMappingURL=newsDetails.css.map */

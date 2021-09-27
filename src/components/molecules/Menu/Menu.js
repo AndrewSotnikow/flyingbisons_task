@@ -8,18 +8,26 @@ import "../../atoms/button/button.css";
 const Menu = ({ ...props }) => {
   const [checked, setChecked] = useState(true);
   return (
-    <nav className={props.styles[0]}>
-      <NavLink to="/news" className="navLink">
+    <nav className="m-menu" aria-label="Navigation menu">
+      <NavLink
+        to="/news"
+        className="m-menu__navLink"
+        aria-label="Navigation menu link"
+      >
         <Button
-          styles={checked ? props.styles[1] : `${props.styles[1]}--active`}
+          styles={!checked ? "m-menu__button" : "m-menu__button --active"}
           onclick={() => setChecked(true)}
           title={props.title[0]}
         />
       </NavLink>
-      <div className="verticalLine" />
-      <NavLink to="/album" className="navLink">
+      <div className="m-menu__verticalLine" />
+      <NavLink
+        to="/album"
+        className="m-menu__navLink"
+        aria-label="Navigation menu link"
+      >
         <Button
-          styles={!checked ? props.styles[1] : `${props.styles[1]}--active`}
+          styles={checked ? "m-menu__button" : "m-menu__button --active"}
           onclick={() => setChecked(false)}
           title={props.title[1]}
         />
@@ -30,7 +38,6 @@ const Menu = ({ ...props }) => {
 
 Menu.propTypes = {
   title: PropTypes.arrayOf(PropTypes.string).isRequired,
-  styles: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Menu;

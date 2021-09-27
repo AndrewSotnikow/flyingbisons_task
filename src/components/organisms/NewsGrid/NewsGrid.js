@@ -1,14 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import "./newsGrid.scss";
-import Article from "../../molecules/Acticle/Article";
+import "./newsGrid.css";
+import ListItem from "../../molecules/ListItem/ListItem";
 
 const NewsGrid = ({ ...props }) => (
-  <div className="o-newsGrid">
+  <ul className="o-newsGrid" aria-label="List of the news">
     {props.news.map((post) => (
-      <Article post={post} key={post.id} />
+      <li className="o-newsGrid__listItem" key={post.id} aria-label="List item">
+        <Link
+          to={{ pathname: "/details", state: { post } }}
+          className="o-newsGrid__Link"
+          aria-label="List Link"
+        >
+          <ListItem post={post} key={post.id} />
+        </Link>
+      </li>
     ))}
-  </div>
+  </ul>
 );
 
 NewsGrid.propTypes = {

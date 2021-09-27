@@ -1,0 +1,24 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .p-NewsListPage__loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-NewsListPage__loader :last-child {
+    margin-top: 0.8rem;
+  }
+  .p-NewsListPage__error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=newsList.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import TitleH2 from "../../atoms/Titles/TitleH2";
-import "./header.scss";
+import "./header.css";
 
 const Header = ({ ...props }) => (
   <div className="m-header">

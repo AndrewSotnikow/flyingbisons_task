@@ -1,0 +1,21 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .m-addComment {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin: 0 1.6rem;
+  }
+  .m-addComment__title {
+    font-family: Gilroy, medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02rem;
+    color: #586976;
+    margin-bottom: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=addComment.css.map */

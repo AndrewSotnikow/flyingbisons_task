@@ -1,0 +1,38 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .m-commentListItem {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    padding: 2.4rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(240, 242, 245, 0.5);
+    margin-bottom: 0.8rem;
+  }
+  .m-commentListItem__title {
+    font-family: Gilroy, semibold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02rem;
+  }
+  .m-commentListItem__text {
+    font-family: Gilroy, semibold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02rem;
+    padding-top: 0.4rem;
+  }
+  .m-commentListItem__text.--lightgray {
+    color: #A0ABB3;
+  }
+
+  .m-commentListItem:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=commentsListItem.css.map */

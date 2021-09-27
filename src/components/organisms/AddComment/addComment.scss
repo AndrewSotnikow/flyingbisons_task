@@ -1,0 +1,23 @@
+@use "../../_settings/_variables" as *;
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-addComment{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin: 0 $value16;
+    &__title{
+      font-family: $medium;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $commentBlock-title-fontSize;
+      line-height: $commentBlock-title-lineHeight;
+      letter-spacing: $letterSpacing02;
+      color: $addComment-title-color;
+      margin-bottom: $value12;
+    }
+  }
+  
+}

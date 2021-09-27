@@ -8,6 +8,7 @@ import {
 import NewsListPage from "./components/pages/NewsListPage/NewsListPage";
 import AlbumPage from "./components/pages/AlbumPage/AlbumPage";
 import Menu from "./components/molecules/Menu/Menu";
+import NewsDetailsPage from "./components/pages/NewsDetailsPage/NewsDetailsPage";
 
 function App() {
   return (
@@ -20,12 +21,12 @@ function App() {
           <Route path="/album">
             <AlbumPage />
           </Route>
+          <Route path="/details">
+            <NewsDetailsPage />
+          </Route>
           <Redirect to="/news" />
         </Switch>
-        <Menu
-          title={["News list", "Album"]}
-          styles={["m-menu", "a-button a-button--active"]}
-        />
+        <Menu title={["News list", "Album"]} />
       </Router>
     </>
   );

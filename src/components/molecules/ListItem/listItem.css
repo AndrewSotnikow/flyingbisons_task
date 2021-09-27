@@ -1,0 +1,32 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .m-listItem {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    padding: 2.4rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(240, 242, 245, 0.5);
+  }
+  .m-listItem__arrowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+  }
+  .m-listItem__titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  .m-listItem:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=listItem.css.map */

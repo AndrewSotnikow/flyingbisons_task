@@ -1,9 +1,26 @@
-.o-newsGrid {
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .o-newsGrid {
     width: 100%;
     height: 100%;
-    margin: 0 1.6em;
+    margin: 0 $value16;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    & a {
+      text-decoration: none;
+      color: $page-header-color
+    }
+    &__listItem{
+      display: block;
+      width: 100%;
+      margin-bottom: $value8;
+    }
+    &__Link:last-child {
+      margin-bottom: 0;
+    }
+  }
 }

@@ -1,0 +1,41 @@
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-commentListItem {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: $value8;
+    padding: $value24;
+    background-color: $bg-color;
+    box-shadow: $boxShadow-color;
+    margin-bottom: $value8;
+
+    &__title {
+      font-family: $semiBold;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $newsPost-header-fontSize;
+      line-height: $article-header-lineHeight;
+      letter-spacing: $letterSpacing02;
+    }
+
+    &__text {
+      font-family: $semiBold;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $newsPost-header-fontSize;
+      line-height: $article-header-lineHeight;
+      letter-spacing: $letterSpacing02;
+      padding-top: 0.4rem;
+
+      &.--lightgray {
+        color: $subheader-color;
+      }
+    }
+  }
+
+  .m-commentListItem:last-child {
+    margin-bottom: 0;
+  }
+}

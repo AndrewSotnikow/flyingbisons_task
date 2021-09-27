@@ -1,0 +1,33 @@
+@use "../../_settings/_variables" as *;
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .m-addComment__commentInput {
+    width: 100%;
+    min-height: 12.3em;
+    background: $bg-color;
+    box-shadow: $boxShadow-color;
+    border-radius: $value8;
+    font-size: $text-fontSize;
+    font-family: $medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: $details-text-lineHeight;
+    letter-spacing: $letterSpacing025;
+    padding: $value24;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: $value12;
+
+    &::placeholder {
+      font-family: $medium;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $fontSize14;
+      line-height: $lineHeight21;
+      display: flex;
+      align-items: center;
+      letter-spacing: $letterSpacing02;
+      color: $addComment-input-placeholder-color;
+    }
+  }
+}
